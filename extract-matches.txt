@@ -1,0 +1,15 @@
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/i; // Change this line
+let result = extractStr.match(codingRegex); // Change this line
+
+//regular expressions (regex) using test() method
+// let string = "sekuah kalimat oleh ivank";
+// let regex = /kalimat/i;
+// let result = regex.test(string);
+// console.log(result)
+
+//regular expressions (regex) using match() method
+// let stringMatch = "sebuah kalimat regex by methode match()";
+// let regexMatch = /kalimat/i;
+// let resultMatch = stringMatch.match(regexMatch); //this will return an array.
+// console.log(resultMatch)
