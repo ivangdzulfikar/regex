@@ -1,0 +1,10 @@
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /Waldo/; // Change this line
+let result = waldoRegex.test(waldoIsHiding);
+
+
+let string = "ini adalah sebuah kalimat oleh Ivank";
+let ivankRegex = /ivank/; // this will return false
+let result2 = ivankRegex.test(string);
+
+console.log(result2);
